@@ -1,7 +1,7 @@
 import streamlit as st
 import pickle
 
-with open('spam_detect', 'rb') as file:
+with open('EmailSpamDetector/spam_detect', 'rb') as file:
     clf = pickle.load(file)
 
 st.title("Email Spam Cheaker")
